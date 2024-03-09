@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component should render successfully 1`] = `
+<body>
+  <div>
+    <button
+      class="text-center font-bold text-colorTextContrast 
+  py-2 px-3 min-w-[100px]
+  border-[3px] rounded-lg border-red 
+  transition-all
+  active:scale-95
+  hover:scale-105
+  disabled:bg-colorDisabled disabled:border-colorDisabled disabled:scale-100 disabled:cursor-not-allowed
+  focus:border-[3px] focus:border-colorAccent focus:scale-105 focus:shadow-focus focus:outline-none
+ 
+          border-colorSuccess bg-colorSuccess 
+          hover:bg-colorSuccessHover 
+          active:bg-colorSuccessPressed
+        "
+    >
+      Click me!
+    </button>
+  </div>
+</body>
+`;
